@@ -1,0 +1,31 @@
+{
+  "name": "projeto-integrador",
+  "version": "1.0.0",
+  "description": "Projeto MobMap DH",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheussilvaesousa/projeto-integrador.git"
+  },
+  "keywords": [
+    "mobilidads",
+    "mapas"
+  ],
+  "author": "grupo 3 - Deyvison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheussilvaesousa/projeto-integrador/issues"
+  },
+  "homepage": "https://github.com/matheussilvaesousa/projeto-integrador#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
