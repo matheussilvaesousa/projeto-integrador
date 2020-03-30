@@ -20,6 +20,11 @@ app.get('/', (req, res, next) => {
         version: "0.0.0"
     });
 });
+app.get('/mapa', (req, res) => {
+    res.render('mapa', {
+        title: "MobMaps - Mapa"
+    })
+})
 
 app.use('/perfil', perfilRouter);
 
