@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-  </head>
-  <body>
-    <main>
-      <h1><%= title %></h1>
-      <p>Bem vindo(a) ao <strong><%= title %></strong></p>
-    </main>
-    <footer>
-        <p>Versão <%= version %></p>
-    </footer>
-  </body>
+
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="display-3"><%= title %></h1>
+    <p class="vertical-align: inherit;">Bem vindo(a) ao <strong><%= title %></strong></p>
+    <p class="vertical-align: inherit;">Versão <%= version %></p>
+  </main>
+
+  <footer>
+  </footer>
+</body>
+
 </html>

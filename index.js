@@ -24,9 +24,9 @@ app.get('/', (req, res, next) => {
 app.use('/perfil', perfilRouter);
 
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
-    next(createError(404));
-});
+// app.use(function (req, res, next) {
+//     next(createError(404));
+// });
 
 app.listen(port, err => {
     console.log(`Servidor rodando na porta ${port}`);
