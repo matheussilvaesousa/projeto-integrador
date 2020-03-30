@@ -5,6 +5,7 @@ const path = require('path');
 
 //Rotas instanciadas
 const perfilRouter = require('./routes/perfilRouter');
+const mapaRouter = require('./routes/mapaRouter')
 
 //view engine
 app.set('views', path.join(__dirname, 'views'));
@@ -22,6 +23,9 @@ app.get('/', (req, res, next) => {
 });
 
 app.use('/perfil', perfilRouter);
+// app.use('/mapa', mapaRouter)
+
+app.use('/mapa', mapaRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
