@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MobMap - Perfil</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
+
     <meta name="keywords" content="Mobilidade, Mapas, Perfil">
     <meta name="author" content="Deyvison J Paula">
 </head>
@@ -18,38 +20,59 @@
         <a class="navbar-brand" href="#">
             <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30"
                 class="d-inline-block align-top" alt="">
-            Bootstrap
+            mobmap
         </a>
     </nav>
 
-    <main class="container  dashboard-view  ">
+    <main class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="text-center" style="width: 300px; margin: auto">
+            <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+                <img class="rounded-cicle" src="images/profile.png" alt="imagem de perfil" width="200">
+                <h4 class="card-title">Karla Jhenifer</h4>
+                <h6>karla@email.com</h6>
 
-                    <img class="card-img-top" src="images/profile.png" alt="Imagem de capa do card">
-                    <div class="card-body">
-                        <h3 class="card-title">Karla Jhenifer</h3>
-                        <h5><a class="nav-link" href="#"> karla@email.com</a></h5>
+                <nav class="nav flex-column">
+                    <a class="nav-link" href="#">Atualizar perfil</a>
+                    <a class="nav-link" href="#">Alterar senha</a>
+                    <a class="nav-link" href="#">Excluir Conta</a>
+                </nav>
 
-                        <nav class="nav flex-column">
-                            <a class="nav-link" href="#">Atualizar perfil</a>
-                            <a class="nav-link" href="#">Alterar senha</a>
-                            <a class="nav-link" href="#">Excluir Conta</a>
-                        </nav>
-
-                    </div>
-
-                </div>
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-8" style="margin-top: 50px;">
-                <h3> PERFIL </h3>
-                <hr>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolore vel ullam impedit enim
+                <h3 class="perfil shadow-sm p-2 mb-4 bg-white rounded"> Perfil
+                    <a data-toggle="collapse" href="#collapsePerfil" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                        <span class="material-icons"> arrow_drop_down </span>
+                    </a>
+                </h3>
+                <p class="perfil collapse.show" id="collapsePerfil">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Voluptatibus, dolore vel
+                    ullam impedit enim
                     provident ut voluptatum atque aspernatur voluptates temporibus dolor ducimus quas architecto. Est
                     cumque vel impedit delectus.
                 </p>
+                <h3 class="perfil shadow-sm p-2 mb-4 bg-white rounded"> Estatísticas
+                    <a data-toggle="collapse" href="#collapseEstatistica" role="button" aria-expanded="false"
+                        aria-controls="collapseExample">
+                        <span class="material-icons"> arrow_drop_down </span>
+                    </a>
+                </h3>
+                <p calss="perfil" id="collapseEstatistica">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, dolore vel
+                    ullam impedit enim
+                    provident ut voluptatum atque aspernatur voluptates temporibus dolor ducimus quas architecto. Est
+                    cumque vel impedit delectus.
+                </p>
+            </div>
+
+            <div class="col-lg-4 redes-sociais text-center">
+                <h5>Compartilhe essa ideia</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><img src="images/facebook.png" alt=""></li>
+                    <li class="list-inline-item"><img src="images/instagram.png" alt=""></li>
+                    <li class="list-inline-item"><a class="social-icon text-xs-center" target="_blank" href="#"><img
+                                src="images/google.png" alt=""></a></li>
+                </ul>
             </div>
 
         </div>

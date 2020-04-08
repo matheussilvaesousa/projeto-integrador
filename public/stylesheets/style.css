@@ -1,3 +1,23 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto", serif;
+}
+
+h3.perfil {
+    border-bottom: 1px solid #BBCCDD;
+    color: #4488DD;
+}
+
+p.perfil {
+    padding: 5px;
+    color: #224455;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.redes-sociais {
+    margin-top: 15px;
+}
+
+div.redes-sociais img{
+    width: 50px;
 }

@@ -5,4 +5,8 @@ router.get('/', (req, res) => {
     res.render('perfil');
 });
 
+router.get('/alterar', (req, res) => {
+    res.render('alterarPerfil');
+});
+
 module.exports = router;
